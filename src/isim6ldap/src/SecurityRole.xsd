@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.prolifics.com/isim/objects">
+
+    <xsd:complexType name="SystemRoleType">
+    	<xsd:attribute name="dn" type="xsd:string"></xsd:attribute>
+    	<xsd:attribute name="globalId" type="xsd:string"></xsd:attribute>
+    	<xsd:attribute name="roleName" type="xsd:string"></xsd:attribute>
+    	<xsd:attribute name="description" type="xsd:string"></xsd:attribute>
+    	<xsd:attribute name="systemRoleCategory" type="xsd:string"></xsd:attribute>
+    </xsd:complexType>
+</xsd:schema>
